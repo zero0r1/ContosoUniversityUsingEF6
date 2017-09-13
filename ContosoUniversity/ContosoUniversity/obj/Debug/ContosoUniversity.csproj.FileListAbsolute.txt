@@ -73,3 +73,7 @@ D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\Co
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
