@@ -77,3 +77,9 @@ D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\Co
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
 D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+D:\support\xiang\Documents\GitHub\ContosoUniversityUsingEF6\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
