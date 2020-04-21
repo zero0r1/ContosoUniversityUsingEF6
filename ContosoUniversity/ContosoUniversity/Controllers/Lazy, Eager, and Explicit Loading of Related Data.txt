@@ -1,0 +1,41 @@
+﻿延迟、预先和现实加载相关数据
+实体框架拥有多种将相关数据从一个实体的导航属性中进行加载的方法：
+
+延迟加载(Lazy Loading):
+	当实体第一次被读取时，相关数据不会被获取。但是，当你第一次尝试存取导航属性时，该导航属性所需的数据会自动加载。
+	结果会使用多个查询发送到数据库——一次是读取实体本身，然后是每个相关的实体。DbContext类默认是使用延迟加载的。
+	departments = context.Departments
+	foreach (Department d in departments)
+	{
+		foreach (Course cin d.Courses)
+		{
+			courseList.Add(d.Name + c.Title);
+		}
+	}
+
+预先加载(Eager Loading):
+	当实体读取时立即获取与该实体相关的数据。这通常会导致在单个连接查询中检索出所有所需要的数据。您可以通过使用Include方法来指定预先加载。
+	departments = context.Departments.Include(x => x.Courses)
+	foreach(Department d in departments)
+	{
+		foreach(Course c in c.Courses)
+		{
+			courseList.Add(d.Name + c.Title);
+		}
+	}
+
+显式加载(Explicit Loading)
+	有点类似于延迟加载，只是你在代码中显式地获取相关数据。当您访问一个导航属性时，它不会自动加载。
+	你需要通过使用实体的对象状态管理器并调用集合上的Collection.Load方法或通过持有单个实体的属性的Reference.Load方法来手动加载相关数据。
+	(在下面的示例中，如果你想要加载管理员导航属性，你需要使用Reference(x => x.Administrator)来替换Collection(x => x.Courses))
+	departments = context.Departments.ToList();
+	foreach(Department d in departments)
+	{
+		context.Entry(d).Collection(x => x.Courses).Load();
+		foreach(Course c in c.Courses)
+		{
+			courseList.Add(d.Name + c.Title);
+		}
+	}
+
+因为延迟加载和显式加载都不立即检索属性的值，所以它们也被称为推迟加载。
